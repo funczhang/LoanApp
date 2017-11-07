@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D40427F51FAD577000FE21D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D40427F41FAD577000FE21D8 /* AppDelegate.m */; };
+		D40427FB1FAD577000FE21D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40427F91FAD577000FE21D8 /* Main.storyboard */; };
+		D40427FE1FAD577000FE21D8 /* LoanApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D40427FC1FAD577000FE21D8 /* LoanApp.xcdatamodeld */; };
+		D40428001FAD577000FE21D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40427FF1FAD577000FE21D8 /* Assets.xcassets */; };
+		D40428031FAD577000FE21D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40428011FAD577000FE21D8 /* LaunchScreen.storyboard */; };
+		D40428061FAD577000FE21D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D40428051FAD577000FE21D8 /* main.m */; };
+		D404281B1FAD59B000FE21D8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D404281A1FAD59B000FE21D8 /* HomeViewController.m */; };
+		D404281E1FAD59BE00FE21D8 /* LoanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D404281D1FAD59BE00FE21D8 /* LoanViewController.m */; };
+		D40428211FAD59D800FE21D8 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40428201FAD59D800FE21D8 /* MoreViewController.m */; };
+		D40428241FAD59E300FE21D8 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40428231FAD59E300FE21D8 /* MyViewController.m */; };
+		D4081C001FB00251002A0B2F /* MyCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4081BFF1FB00251002A0B2F /* MyCellModel.m */; };
+		D4081C011FB006EB002A0B2F /* cell.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4081BFD1FB00147002A0B2F /* cell.plist */; };
+		D4081C091FB02FED002A0B2F /* moreCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4081C081FB02FED002A0B2F /* moreCell.plist */; };
+		D4081C0B1FB0422D002A0B2F /* loanCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4081C0A1FB0422D002A0B2F /* loanCell.plist */; };
+		D4081C0E1FB05613002A0B2F /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4081C0D1FB05613002A0B2F /* MyTableViewCell.m */; };
+		D40FEF7E1FADAC0400DD7151 /* PageController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40FEF7D1FADAC0400DD7151 /* PageController.m */; };
+		D458B0CF1FAF3EC60058D7A9 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D458B0CE1FAF3EC60058D7A9 /* UserModel.m */; };
+		FA76146B6672014592E7858C /* libPods-LoanApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDF2F5717446F02F62B9A75 /* libPods-LoanApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BDF2F5717446F02F62B9A75 /* libPods-LoanApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoanApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40427F01FAD577000FE21D8 /* LoanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40427F31FAD577000FE21D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D40427F41FAD577000FE21D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D40427FA1FAD577000FE21D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D40427FD1FAD577000FE21D8 /* LoanApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoanApp.xcdatamodel; sourceTree = "<group>"; };
+		D40427FF1FAD577000FE21D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D40428021FAD577000FE21D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D40428041FAD577000FE21D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40428051FAD577000FE21D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D40428191FAD59B000FE21D8 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D404281A1FAD59B000FE21D8 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D404281C1FAD59BE00FE21D8 /* LoanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoanViewController.h; sourceTree = "<group>"; };
+		D404281D1FAD59BE00FE21D8 /* LoanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoanViewController.m; sourceTree = "<group>"; };
+		D404281F1FAD59D800FE21D8 /* MoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		D40428201FAD59D800FE21D8 /* MoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		D40428221FAD59E300FE21D8 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		D40428231FAD59E300FE21D8 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		D4081BFD1FB00147002A0B2F /* cell.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = cell.plist; sourceTree = "<group>"; };
+		D4081BFE1FB00251002A0B2F /* MyCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCellModel.h; sourceTree = "<group>"; };
+		D4081BFF1FB00251002A0B2F /* MyCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCellModel.m; sourceTree = "<group>"; };
+		D4081C081FB02FED002A0B2F /* moreCell.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = moreCell.plist; sourceTree = "<group>"; };
+		D4081C0A1FB0422D002A0B2F /* loanCell.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = loanCell.plist; sourceTree = "<group>"; };
+		D4081C0C1FB05613002A0B2F /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		D4081C0D1FB05613002A0B2F /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		D40FEF7C1FADAC0400DD7151 /* PageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageController.h; sourceTree = "<group>"; };
+		D40FEF7D1FADAC0400DD7151 /* PageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageController.m; sourceTree = "<group>"; };
+		D458B0CD1FAF3EC60058D7A9 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		D458B0CE1FAF3EC60058D7A9 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		DBBEB58F7A24F95F36C32483 /* Pods-LoanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoanApp/Pods-LoanApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F110823B19BD505542D7A179 /* Pods-LoanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoanApp/Pods-LoanApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D40427ED1FAD577000FE21D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA76146B6672014592E7858C /* libPods-LoanApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68D0535D9573F01228C03A18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBBEB58F7A24F95F36C32483 /* Pods-LoanApp.debug.xcconfig */,
+				F110823B19BD505542D7A179 /* Pods-LoanApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5FFD9A671715F6FBD0C535D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BDF2F5717446F02F62B9A75 /* libPods-LoanApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D40427E71FAD577000FE21D8 = {
+			isa = PBXGroup;
+			children = (
+				D40427F21FAD577000FE21D8 /* LoanApp */,
+				D40427F11FAD577000FE21D8 /* Products */,
+				68D0535D9573F01228C03A18 /* Pods */,
+				A5FFD9A671715F6FBD0C535D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D40427F11FAD577000FE21D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D40427F01FAD577000FE21D8 /* LoanApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D40427F21FAD577000FE21D8 /* LoanApp */ = {
+			isa = PBXGroup;
+			children = (
+				D404280C1FAD580800FE21D8 /* Class */,
+				D40427F31FAD577000FE21D8 /* AppDelegate.h */,
+				D40427F41FAD577000FE21D8 /* AppDelegate.m */,
+				D40427F91FAD577000FE21D8 /* Main.storyboard */,
+				D40427FF1FAD577000FE21D8 /* Assets.xcassets */,
+				D40428011FAD577000FE21D8 /* LaunchScreen.storyboard */,
+				D40428041FAD577000FE21D8 /* Info.plist */,
+				D4081C0A1FB0422D002A0B2F /* loanCell.plist */,
+				D4081BFD1FB00147002A0B2F /* cell.plist */,
+				D4081C081FB02FED002A0B2F /* moreCell.plist */,
+				D40428051FAD577000FE21D8 /* main.m */,
+				D40427FC1FAD577000FE21D8 /* LoanApp.xcdatamodeld */,
+			);
+			path = LoanApp;
+			sourceTree = "<group>";
+		};
+		D404280C1FAD580800FE21D8 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D40428141FAD587600FE21D8 /* Categrys */,
+				D40428131FAD586C00FE21D8 /* Utils */,
+				D40428121FAD584600FE21D8 /* Controlls */,
+				D40428111FAD583E00FE21D8 /* Models */,
+				D40428101FAD583200FE21D8 /* Views */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		D40428101FAD583200FE21D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D40FEF7C1FADAC0400DD7151 /* PageController.h */,
+				D40FEF7D1FADAC0400DD7151 /* PageController.m */,
+				D4081C0C1FB05613002A0B2F /* MyTableViewCell.h */,
+				D4081C0D1FB05613002A0B2F /* MyTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D40428111FAD583E00FE21D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D458B0CD1FAF3EC60058D7A9 /* UserModel.h */,
+				D458B0CE1FAF3EC60058D7A9 /* UserModel.m */,
+				D4081BFE1FB00251002A0B2F /* MyCellModel.h */,
+				D4081BFF1FB00251002A0B2F /* MyCellModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D40428121FAD584600FE21D8 /* Controlls */ = {
+			isa = PBXGroup;
+			children = (
+				D40428251FAD7B9D00FE21D8 /* common */,
+				D40428181FAD594C00FE21D8 /* 我的 */,
+				D40428171FAD594400FE21D8 /* 更多 */,
+				D40428161FAD593700FE21D8 /* 贷款 */,
+				D40428151FAD590200FE21D8 /* 主页 */,
+			);
+			path = Controlls;
+			sourceTree = "<group>";
+		};
+		D40428131FAD586C00FE21D8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D40428141FAD587600FE21D8 /* Categrys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categrys;
+			sourceTree = "<group>";
+		};
+		D40428151FAD590200FE21D8 /* 主页 */ = {
+			isa = PBXGroup;
+			children = (
+				D40428191FAD59B000FE21D8 /* HomeViewController.h */,
+				D404281A1FAD59B000FE21D8 /* HomeViewController.m */,
+			);
+			path = "主页";
+			sourceTree = "<group>";
+		};
+		D40428161FAD593700FE21D8 /* 贷款 */ = {
+			isa = PBXGroup;
+			children = (
+				D404281C1FAD59BE00FE21D8 /* LoanViewController.h */,
+				D404281D1FAD59BE00FE21D8 /* LoanViewController.m */,
+			);
+			path = "贷款";
+			sourceTree = "<group>";
+		};
+		D40428171FAD594400FE21D8 /* 更多 */ = {
+			isa = PBXGroup;
+			children = (
+				D404281F1FAD59D800FE21D8 /* MoreViewController.h */,
+				D40428201FAD59D800FE21D8 /* MoreViewController.m */,
+			);
+			path = "更多";
+			sourceTree = "<group>";
+		};
+		D40428181FAD594C00FE21D8 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				D40428221FAD59E300FE21D8 /* MyViewController.h */,
+				D40428231FAD59E300FE21D8 /* MyViewController.m */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		D40428251FAD7B9D00FE21D8 /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D40427EF1FAD577000FE21D8 /* LoanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40428091FAD577000FE21D8 /* Build configuration list for PBXNativeTarget "LoanApp" */;
+			buildPhases = (
+				584E400D6FA8798DE905E023 /* [CP] Check Pods Manifest.lock */,
+				D40427EC1FAD577000FE21D8 /* Sources */,
+				D40427ED1FAD577000FE21D8 /* Frameworks */,
+				D40427EE1FAD577000FE21D8 /* Resources */,
+				E2FFC6F537F840A07ADE500F /* [CP] Embed Pods Frameworks */,
+				1A3870F4B0FEF06DAB8378CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoanApp;
+			productName = LoanApp;
+			productReference = D40427F01FAD577000FE21D8 /* LoanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D40427E81FAD577000FE21D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "张超";
+				TargetAttributes = {
+					D40427EF1FAD577000FE21D8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D40427EB1FAD577000FE21D8 /* Build configuration list for PBXProject "LoanApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D40427E71FAD577000FE21D8;
+			productRefGroup = D40427F11FAD577000FE21D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D40427EF1FAD577000FE21D8 /* LoanApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D40427EE1FAD577000FE21D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4081C091FB02FED002A0B2F /* moreCell.plist in Resources */,
+				D4081C011FB006EB002A0B2F /* cell.plist in Resources */,
+				D40428031FAD577000FE21D8 /* LaunchScreen.storyboard in Resources */,
+				D40428001FAD577000FE21D8 /* Assets.xcassets in Resources */,
+				D4081C0B1FB0422D002A0B2F /* loanCell.plist in Resources */,
+				D40427FB1FAD577000FE21D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A3870F4B0FEF06DAB8378CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoanApp/Pods-LoanApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		584E400D6FA8798DE905E023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoanApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FFC6F537F840A07ADE500F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoanApp/Pods-LoanApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D40427EC1FAD577000FE21D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D404281E1FAD59BE00FE21D8 /* LoanViewController.m in Sources */,
+				D4081C001FB00251002A0B2F /* MyCellModel.m in Sources */,
+				D40428211FAD59D800FE21D8 /* MoreViewController.m in Sources */,
+				D40427FE1FAD577000FE21D8 /* LoanApp.xcdatamodeld in Sources */,
+				D40428061FAD577000FE21D8 /* main.m in Sources */,
+				D40427F51FAD577000FE21D8 /* AppDelegate.m in Sources */,
+				D458B0CF1FAF3EC60058D7A9 /* UserModel.m in Sources */,
+				D4081C0E1FB05613002A0B2F /* MyTableViewCell.m in Sources */,
+				D404281B1FAD59B000FE21D8 /* HomeViewController.m in Sources */,
+				D40428241FAD59E300FE21D8 /* MyViewController.m in Sources */,
+				D40FEF7E1FADAC0400DD7151 /* PageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D40427F91FAD577000FE21D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40427FA1FAD577000FE21D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D40428011FAD577000FE21D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40428021FAD577000FE21D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D40428071FAD577000FE21D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D40428081FAD577000FE21D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D404280A1FAD577000FE21D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBEB58F7A24F95F36C32483 /* Pods-LoanApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX5AY254F8;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				INFOPLIST_FILE = LoanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickzhang.LoanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Debug;
+		};
+		D404280B1FAD577000FE21D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F110823B19BD505542D7A179 /* Pods-LoanApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX5AY254F8;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				INFOPLIST_FILE = LoanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickzhang.LoanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D40427EB1FAD577000FE21D8 /* Build configuration list for PBXProject "LoanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40428071FAD577000FE21D8 /* Debug */,
+				D40428081FAD577000FE21D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40428091FAD577000FE21D8 /* Build configuration list for PBXNativeTarget "LoanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D404280A1FAD577000FE21D8 /* Debug */,
+				D404280B1FAD577000FE21D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D40427FC1FAD577000FE21D8 /* LoanApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D40427FD1FAD577000FE21D8 /* LoanApp.xcdatamodel */,
+			);
+			currentVersion = D40427FD1FAD577000FE21D8 /* LoanApp.xcdatamodel */;
+			path = LoanApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D40427E81FAD577000FE21D8 /* Project object */;
+}

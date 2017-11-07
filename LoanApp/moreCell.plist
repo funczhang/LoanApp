@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>icon-usual-question</string>
+			<key>text</key>
+			<string>常见问题</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>icon-consult-service</string>
+			<key>text</key>
+			<string>咨询服务</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>icon-give-evaluate</string>
+			<key>text</key>
+			<string>给予评价</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>icon-share-friends</string>
+			<key>text</key>
+			<string>分享给好友</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>icon-suggest-feedback</string>
+			<key>text</key>
+			<string>意见反馈</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>icon-about</string>
+			<key>text</key>
+			<string>关于</string>
+		</dict>
+	</array>
+</array>
+</plist>

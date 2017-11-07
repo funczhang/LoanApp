@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>icon-danbao</string>
+			<key>text</key>
+			<string>我的担保</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>icon-bank</string>
+			<key>text</key>
+			<string>银行卡</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>icon-juan</string>
+			<key>text</key>
+			<string>优惠券</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>icon-setting</string>
+			<key>text</key>
+			<string>个人设置</string>
+		</dict>
+	</array>
+</array>
+</plist>
