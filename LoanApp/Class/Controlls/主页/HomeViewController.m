@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "PageController.h"
 #import "Masonry.h"
+#import "InformTableViewController.h"
 #define SCREEN_W  [UIScreen mainScreen].bounds.size.width
 #define SCREEN_H  [UIScreen mainScreen].bounds.size.height
 @interface HomeViewController ()
@@ -29,7 +30,7 @@
     main.scrollEnabled = YES;
 //    self.title = @"主页";
 //    self.automaticallyAdjustsScrollViewInsets = NO;
-    UIBarButtonItem *right = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"icon-email"] style:UIBarButtonItemStylePlain target:self action:nil];
+    UIBarButtonItem *right = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"icon-email"] style:UIBarButtonItemStylePlain target:self action:@selector(toInform)];
     self.navigationItem.rightBarButtonItem = right;
     UIImageView *titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"icon-logo"]];
     self.navigationItem.titleView = titleView;
@@ -276,6 +277,10 @@
 -(void)addTimer{
     _timer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(nextImage) userInfo:nil repeats:YES];
     
+}
+-(void)toInform{
+    InformTableViewController *inform = [[InformTableViewController alloc]init];
+    [self.navigationController pushViewController:inform animated:YES];
 }
 #pragma mark - watch scroll
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{

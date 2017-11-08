@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>time</key>
+		<string>11:20</string>
+		<key>title</key>
+		<string>活动公告</string>
+		<key>icon</key>
+		<string>icon-system-inform</string>
+		<key>content</key>
+		<string>尊敬的客户，由于最近上线需要，服务会在晚上去、7点以后停止，很抱歉为你带来不便，希望您能谅解！</string>
+	</dict>
+	<dict>
+		<key>time</key>
+		<string>11:20</string>
+		<key>title</key>
+		<string>活动公告</string>
+		<key>icon</key>
+		<string>icon-system-inform</string>
+		<key>content</key>
+		<string>尊敬的客户，由于最近上线需要，服务会在晚上去、7点以后停止，很抱歉为你带来不便，希望您能谅解！</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>活动公告</string>
+		<key>time</key>
+		<string>11:20</string>
+		<key>icon</key>
+		<string>icon-system-inform</string>
+		<key>content</key>
+		<string>尊敬的客户，由于最近上线需要，服务会在晚上去、7点以后停止，很抱歉为你带来不便，希望您能谅解！</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>活动公告</string>
+		<key>time</key>
+		<string>11:20</string>
+		<key>icon</key>
+		<string>icon-system-inform</string>
+		<key>content</key>
+		<string>尊敬的客户，由于最近上线需要，服务会在晚上去、7点以后停止，很抱歉为你带来不便，希望您能谅解！</string>
+	</dict>
+</array>
+</plist>

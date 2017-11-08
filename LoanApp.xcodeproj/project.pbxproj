@@ -23,6 +23,8 @@
 		D4081C0B1FB0422D002A0B2F /* loanCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4081C0A1FB0422D002A0B2F /* loanCell.plist */; };
 		D4081C0E1FB05613002A0B2F /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4081C0D1FB05613002A0B2F /* MyTableViewCell.m */; };
 		D40FEF7E1FADAC0400DD7151 /* PageController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40FEF7D1FADAC0400DD7151 /* PageController.m */; };
+		D447650B1FB31ACD00C0BA48 /* InformTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D447650A1FB31ACD00C0BA48 /* InformTableViewController.m */; };
+		D447650D1FB31EF500C0BA48 /* inform.plist in Resources */ = {isa = PBXBuildFile; fileRef = D447650C1FB31EF500C0BA48 /* inform.plist */; };
 		D458B0CF1FAF3EC60058D7A9 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D458B0CE1FAF3EC60058D7A9 /* UserModel.m */; };
 		FA76146B6672014592E7858C /* libPods-LoanApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDF2F5717446F02F62B9A75 /* libPods-LoanApp.a */; };
 /* End PBXBuildFile section */
@@ -55,6 +57,9 @@
 		D4081C0D1FB05613002A0B2F /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		D40FEF7C1FADAC0400DD7151 /* PageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageController.h; sourceTree = "<group>"; };
 		D40FEF7D1FADAC0400DD7151 /* PageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageController.m; sourceTree = "<group>"; };
+		D44765091FB31ACD00C0BA48 /* InformTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformTableViewController.h; sourceTree = "<group>"; };
+		D447650A1FB31ACD00C0BA48 /* InformTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformTableViewController.m; sourceTree = "<group>"; };
+		D447650C1FB31EF500C0BA48 /* inform.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = inform.plist; sourceTree = "<group>"; };
 		D458B0CD1FAF3EC60058D7A9 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		D458B0CE1FAF3EC60058D7A9 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		DBBEB58F7A24F95F36C32483 /* Pods-LoanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoanApp/Pods-LoanApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +123,7 @@
 				D40427FF1FAD577000FE21D8 /* Assets.xcassets */,
 				D40428011FAD577000FE21D8 /* LaunchScreen.storyboard */,
 				D40428041FAD577000FE21D8 /* Info.plist */,
+				D447650C1FB31EF500C0BA48 /* inform.plist */,
 				D4081C0A1FB0422D002A0B2F /* loanCell.plist */,
 				D4081BFD1FB00147002A0B2F /* cell.plist */,
 				D4081C081FB02FED002A0B2F /* moreCell.plist */,
@@ -192,6 +198,8 @@
 			children = (
 				D40428191FAD59B000FE21D8 /* HomeViewController.h */,
 				D404281A1FAD59B000FE21D8 /* HomeViewController.m */,
+				D44765091FB31ACD00C0BA48 /* InformTableViewController.h */,
+				D447650A1FB31ACD00C0BA48 /* InformTableViewController.m */,
 			);
 			path = "主页";
 			sourceTree = "<group>";
@@ -297,6 +305,7 @@
 				D40428001FAD577000FE21D8 /* Assets.xcassets in Resources */,
 				D4081C0B1FB0422D002A0B2F /* loanCell.plist in Resources */,
 				D40427FB1FAD577000FE21D8 /* Main.storyboard in Resources */,
+				D447650D1FB31EF500C0BA48 /* inform.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D447650B1FB31ACD00C0BA48 /* InformTableViewController.m in Sources */,
 				D404281E1FAD59BE00FE21D8 /* LoanViewController.m in Sources */,
 				D4081C001FB00251002A0B2F /* MyCellModel.m in Sources */,
 				D40428211FAD59D800FE21D8 /* MoreViewController.m in Sources */,

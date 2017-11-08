@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x6211;&#x7684;/MyViewController.m"
-            timestampString = "531755391.078799"
+            timestampString = "531837819.402726"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x6211;&#x7684;/MyViewController.m"
-            timestampString = "531755391.079179"
+            timestampString = "531837819.403049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x6211;&#x7684;/MyViewController.m"
-            timestampString = "531755391.079428"
+            timestampString = "531837819.403284"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "77"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x8d37;&#x6b3e;/LoanViewController.m"
-            timestampString = "531734234.187694"
+            timestampString = "531837819.403505"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x8d37;&#x6b3e;/LoanViewController.m"
-            timestampString = "531734234.188037"
+            timestampString = "531837819.403552"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x8d37;&#x6b3e;/LoanViewController.m"
-            timestampString = "531734234.188297"
+            timestampString = "531837819.403595"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "49"
@@ -170,12 +170,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x8d37;&#x6b3e;/LoanViewController.m"
-            timestampString = "531734234.188615"
+            timestampString = "531837819.403635"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
             endingLineNumber = "38"
             landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoanApp/Class/Controlls/&#x4e3b;&#x9875;/InformTableViewController.m"
+            timestampString = "531837819.403936"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-segChange:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
