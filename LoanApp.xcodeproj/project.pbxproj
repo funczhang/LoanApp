@@ -23,9 +23,30 @@
 		D4081C0B1FB0422D002A0B2F /* loanCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4081C0A1FB0422D002A0B2F /* loanCell.plist */; };
 		D4081C0E1FB05613002A0B2F /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4081C0D1FB05613002A0B2F /* MyTableViewCell.m */; };
 		D40FEF7E1FADAC0400DD7151 /* PageController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40FEF7D1FADAC0400DD7151 /* PageController.m */; };
+		D4152D461FC58F87001E30C5 /* UseCreditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4152D441FC58F87001E30C5 /* UseCreditTableViewController.m */; };
+		D4152D4C1FC59543001E30C5 /* usecredit.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4152D4B1FC59543001E30C5 /* usecredit.plist */; };
 		D447650B1FB31ACD00C0BA48 /* InformTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D447650A1FB31ACD00C0BA48 /* InformTableViewController.m */; };
 		D447650D1FB31EF500C0BA48 /* inform.plist in Resources */ = {isa = PBXBuildFile; fileRef = D447650C1FB31EF500C0BA48 /* inform.plist */; };
+		D44876DB1FC82C57004C1DF2 /* GuidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44876D91FC82C57004C1DF2 /* GuidViewController.m */; };
+		D44876DF1FC83C1B004C1DF2 /* BankCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44876DE1FC83C1B004C1DF2 /* BankCardViewController.m */; };
+		D44876E31FC83C54004C1DF2 /* BankCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D44876E11FC83C54004C1DF2 /* BankCardTableViewCell.m */; };
+		D44876E41FC83C54004C1DF2 /* BankCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D44876E21FC83C54004C1DF2 /* BankCardTableViewCell.xib */; };
+		D44876E61FC840CD004C1DF2 /* bank.plist in Resources */ = {isa = PBXBuildFile; fileRef = D44876E51FC840CD004C1DF2 /* bank.plist */; };
 		D458B0CF1FAF3EC60058D7A9 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D458B0CE1FAF3EC60058D7A9 /* UserModel.m */; };
+		D4A799611FC449DB0093C028 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A799601FC449DB0093C028 /* LoginViewController.m */; };
+		D4C7DF7E1FC9118300A54B7B /* GiveCreditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7DF7D1FC9118300A54B7B /* GiveCreditTableViewController.m */; };
+		D4C7DF821FC911A200A54B7B /* GiveCreditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7DF801FC911A200A54B7B /* GiveCreditTableViewCell.m */; };
+		D4C7DF831FC911A200A54B7B /* GiveCreditTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4C7DF811FC911A200A54B7B /* GiveCreditTableViewCell.xib */; };
+		D4C7DF851FC912A400A54B7B /* givecredit.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4C7DF841FC912A400A54B7B /* givecredit.plist */; };
+		D4C7DF971FC95F0100A54B7B /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7DF961FC95F0100A54B7B /* NSString+Util.m */; };
+		D4D665861FC65584001972AB /* UseCreditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D665841FC65584001972AB /* UseCreditTableViewCell.m */; };
+		D4D665871FC65584001972AB /* UseCreditTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4D665851FC65584001972AB /* UseCreditTableViewCell.xib */; };
+		D4D6658B1FC6E6F9001972AB /* SuggestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D665891FC6E6F9001972AB /* SuggestViewController.m */; };
+		D4D6658C1FC6E6F9001972AB /* SuggestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4D6658A1FC6E6F9001972AB /* SuggestViewController.xib */; };
+		D4DA42971FC70FCA00847F15 /* RepayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DA42951FC70FCA00847F15 /* RepayViewController.m */; };
+		D4DA429D1FC7102000847F15 /* RepayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DA429B1FC7102000847F15 /* RepayTableViewCell.m */; };
+		D4DA429E1FC7102000847F15 /* RepayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4DA429C1FC7102000847F15 /* RepayTableViewCell.xib */; };
+		D4DA42A01FC713D200847F15 /* repay.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4DA429F1FC713D200847F15 /* repay.plist */; };
 		FA76146B6672014592E7858C /* libPods-LoanApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDF2F5717446F02F62B9A75 /* libPods-LoanApp.a */; };
 /* End PBXBuildFile section */
 
@@ -57,11 +78,44 @@
 		D4081C0D1FB05613002A0B2F /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		D40FEF7C1FADAC0400DD7151 /* PageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageController.h; sourceTree = "<group>"; };
 		D40FEF7D1FADAC0400DD7151 /* PageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageController.m; sourceTree = "<group>"; };
+		D4152D431FC58F87001E30C5 /* UseCreditTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UseCreditTableViewController.h; sourceTree = "<group>"; };
+		D4152D441FC58F87001E30C5 /* UseCreditTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseCreditTableViewController.m; sourceTree = "<group>"; };
+		D4152D4B1FC59543001E30C5 /* usecredit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = usecredit.plist; sourceTree = "<group>"; };
 		D44765091FB31ACD00C0BA48 /* InformTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformTableViewController.h; sourceTree = "<group>"; };
 		D447650A1FB31ACD00C0BA48 /* InformTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformTableViewController.m; sourceTree = "<group>"; };
 		D447650C1FB31EF500C0BA48 /* inform.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = inform.plist; sourceTree = "<group>"; };
+		D44876D81FC82C57004C1DF2 /* GuidViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuidViewController.h; sourceTree = "<group>"; };
+		D44876D91FC82C57004C1DF2 /* GuidViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuidViewController.m; sourceTree = "<group>"; };
+		D44876DD1FC83C1B004C1DF2 /* BankCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankCardViewController.h; sourceTree = "<group>"; };
+		D44876DE1FC83C1B004C1DF2 /* BankCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardViewController.m; sourceTree = "<group>"; };
+		D44876E01FC83C54004C1DF2 /* BankCardTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankCardTableViewCell.h; sourceTree = "<group>"; };
+		D44876E11FC83C54004C1DF2 /* BankCardTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardTableViewCell.m; sourceTree = "<group>"; };
+		D44876E21FC83C54004C1DF2 /* BankCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BankCardTableViewCell.xib; sourceTree = "<group>"; };
+		D44876E51FC840CD004C1DF2 /* bank.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = bank.plist; sourceTree = "<group>"; };
 		D458B0CD1FAF3EC60058D7A9 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		D458B0CE1FAF3EC60058D7A9 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		D4A7995F1FC449DB0093C028 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D4A799601FC449DB0093C028 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D4C7DF7C1FC9118300A54B7B /* GiveCreditTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiveCreditTableViewController.h; sourceTree = "<group>"; };
+		D4C7DF7D1FC9118300A54B7B /* GiveCreditTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiveCreditTableViewController.m; sourceTree = "<group>"; };
+		D4C7DF7F1FC911A200A54B7B /* GiveCreditTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiveCreditTableViewCell.h; sourceTree = "<group>"; };
+		D4C7DF801FC911A200A54B7B /* GiveCreditTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiveCreditTableViewCell.m; sourceTree = "<group>"; };
+		D4C7DF811FC911A200A54B7B /* GiveCreditTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GiveCreditTableViewCell.xib; sourceTree = "<group>"; };
+		D4C7DF841FC912A400A54B7B /* givecredit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = givecredit.plist; sourceTree = "<group>"; };
+		D4C7DF951FC95F0100A54B7B /* NSString+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		D4C7DF961FC95F0100A54B7B /* NSString+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		D4D665831FC65584001972AB /* UseCreditTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UseCreditTableViewCell.h; sourceTree = "<group>"; };
+		D4D665841FC65584001972AB /* UseCreditTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseCreditTableViewCell.m; sourceTree = "<group>"; };
+		D4D665851FC65584001972AB /* UseCreditTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UseCreditTableViewCell.xib; sourceTree = "<group>"; };
+		D4D665881FC6E6F9001972AB /* SuggestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuggestViewController.h; sourceTree = "<group>"; };
+		D4D665891FC6E6F9001972AB /* SuggestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuggestViewController.m; sourceTree = "<group>"; };
+		D4D6658A1FC6E6F9001972AB /* SuggestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestViewController.xib; sourceTree = "<group>"; };
+		D4DA42941FC70FCA00847F15 /* RepayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepayViewController.h; sourceTree = "<group>"; };
+		D4DA42951FC70FCA00847F15 /* RepayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepayViewController.m; sourceTree = "<group>"; };
+		D4DA429A1FC7102000847F15 /* RepayTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepayTableViewCell.h; sourceTree = "<group>"; };
+		D4DA429B1FC7102000847F15 /* RepayTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepayTableViewCell.m; sourceTree = "<group>"; };
+		D4DA429C1FC7102000847F15 /* RepayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepayTableViewCell.xib; sourceTree = "<group>"; };
+		D4DA429F1FC713D200847F15 /* repay.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = repay.plist; sourceTree = "<group>"; };
 		DBBEB58F7A24F95F36C32483 /* Pods-LoanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoanApp/Pods-LoanApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F110823B19BD505542D7A179 /* Pods-LoanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoanApp/Pods-LoanApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,7 +176,11 @@
 				D40427F91FAD577000FE21D8 /* Main.storyboard */,
 				D40427FF1FAD577000FE21D8 /* Assets.xcassets */,
 				D40428011FAD577000FE21D8 /* LaunchScreen.storyboard */,
+				D4C7DF841FC912A400A54B7B /* givecredit.plist */,
 				D40428041FAD577000FE21D8 /* Info.plist */,
+				D44876E51FC840CD004C1DF2 /* bank.plist */,
+				D4DA429F1FC713D200847F15 /* repay.plist */,
+				D4152D4B1FC59543001E30C5 /* usecredit.plist */,
 				D447650C1FB31EF500C0BA48 /* inform.plist */,
 				D4081C0A1FB0422D002A0B2F /* loanCell.plist */,
 				D4081BFD1FB00147002A0B2F /* cell.plist */,
@@ -189,6 +247,8 @@
 		D40428141FAD587600FE21D8 /* Categrys */ = {
 			isa = PBXGroup;
 			children = (
+				D4C7DF951FC95F0100A54B7B /* NSString+Util.h */,
+				D4C7DF961FC95F0100A54B7B /* NSString+Util.m */,
 			);
 			path = Categrys;
 			sourceTree = "<group>";
@@ -218,6 +278,9 @@
 			children = (
 				D404281F1FAD59D800FE21D8 /* MoreViewController.h */,
 				D40428201FAD59D800FE21D8 /* MoreViewController.m */,
+				D4D665881FC6E6F9001972AB /* SuggestViewController.h */,
+				D4D665891FC6E6F9001972AB /* SuggestViewController.m */,
+				D4D6658A1FC6E6F9001972AB /* SuggestViewController.xib */,
 			);
 			path = "更多";
 			sourceTree = "<group>";
@@ -225,6 +288,9 @@
 		D40428181FAD594C00FE21D8 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				D4C7DF781FC910F000A54B7B /* 授信 */,
+				D4C7DF761FC9107600A54B7B /* 用信 */,
+				D4DA42991FC70FDD00847F15 /* 还款 */,
 				D40428221FAD59E300FE21D8 /* MyViewController.h */,
 				D40428231FAD59E300FE21D8 /* MyViewController.m */,
 			);
@@ -234,8 +300,77 @@
 		D40428251FAD7B9D00FE21D8 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				D4C7DF8B1FC9417700A54B7B /* 银行卡列表 */,
+				D4C7DF8A1FC9417000A54B7B /* 登录页 */,
+				D4C7DF891FC9416200A54B7B /* 引导页 */,
 			);
 			path = common;
+			sourceTree = "<group>";
+		};
+		D4C7DF761FC9107600A54B7B /* 用信 */ = {
+			isa = PBXGroup;
+			children = (
+				D4D665831FC65584001972AB /* UseCreditTableViewCell.h */,
+				D4D665851FC65584001972AB /* UseCreditTableViewCell.xib */,
+				D4152D431FC58F87001E30C5 /* UseCreditTableViewController.h */,
+				D4152D441FC58F87001E30C5 /* UseCreditTableViewController.m */,
+				D4D665841FC65584001972AB /* UseCreditTableViewCell.m */,
+			);
+			path = "用信";
+			sourceTree = "<group>";
+		};
+		D4C7DF781FC910F000A54B7B /* 授信 */ = {
+			isa = PBXGroup;
+			children = (
+				D4C7DF7C1FC9118300A54B7B /* GiveCreditTableViewController.h */,
+				D4C7DF7D1FC9118300A54B7B /* GiveCreditTableViewController.m */,
+				D4C7DF7F1FC911A200A54B7B /* GiveCreditTableViewCell.h */,
+				D4C7DF801FC911A200A54B7B /* GiveCreditTableViewCell.m */,
+				D4C7DF811FC911A200A54B7B /* GiveCreditTableViewCell.xib */,
+			);
+			path = "授信";
+			sourceTree = "<group>";
+		};
+		D4C7DF891FC9416200A54B7B /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				D44876D81FC82C57004C1DF2 /* GuidViewController.h */,
+				D44876D91FC82C57004C1DF2 /* GuidViewController.m */,
+			);
+			path = "引导页";
+			sourceTree = "<group>";
+		};
+		D4C7DF8A1FC9417000A54B7B /* 登录页 */ = {
+			isa = PBXGroup;
+			children = (
+				D4A7995F1FC449DB0093C028 /* LoginViewController.h */,
+				D4A799601FC449DB0093C028 /* LoginViewController.m */,
+			);
+			path = "登录页";
+			sourceTree = "<group>";
+		};
+		D4C7DF8B1FC9417700A54B7B /* 银行卡列表 */ = {
+			isa = PBXGroup;
+			children = (
+				D44876DD1FC83C1B004C1DF2 /* BankCardViewController.h */,
+				D44876DE1FC83C1B004C1DF2 /* BankCardViewController.m */,
+				D44876E01FC83C54004C1DF2 /* BankCardTableViewCell.h */,
+				D44876E11FC83C54004C1DF2 /* BankCardTableViewCell.m */,
+				D44876E21FC83C54004C1DF2 /* BankCardTableViewCell.xib */,
+			);
+			path = "银行卡列表";
+			sourceTree = "<group>";
+		};
+		D4DA42991FC70FDD00847F15 /* 还款 */ = {
+			isa = PBXGroup;
+			children = (
+				D4DA42941FC70FCA00847F15 /* RepayViewController.h */,
+				D4DA42951FC70FCA00847F15 /* RepayViewController.m */,
+				D4DA429A1FC7102000847F15 /* RepayTableViewCell.h */,
+				D4DA429B1FC7102000847F15 /* RepayTableViewCell.m */,
+				D4DA429C1FC7102000847F15 /* RepayTableViewCell.xib */,
+			);
+			path = "还款";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,12 +434,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4C7DF851FC912A400A54B7B /* givecredit.plist in Resources */,
 				D4081C091FB02FED002A0B2F /* moreCell.plist in Resources */,
+				D4D6658C1FC6E6F9001972AB /* SuggestViewController.xib in Resources */,
+				D4DA42A01FC713D200847F15 /* repay.plist in Resources */,
+				D4DA429E1FC7102000847F15 /* RepayTableViewCell.xib in Resources */,
+				D44876E61FC840CD004C1DF2 /* bank.plist in Resources */,
+				D4152D4C1FC59543001E30C5 /* usecredit.plist in Resources */,
 				D4081C011FB006EB002A0B2F /* cell.plist in Resources */,
 				D40428031FAD577000FE21D8 /* LaunchScreen.storyboard in Resources */,
+				D4D665871FC65584001972AB /* UseCreditTableViewCell.xib in Resources */,
+				D44876E41FC83C54004C1DF2 /* BankCardTableViewCell.xib in Resources */,
 				D40428001FAD577000FE21D8 /* Assets.xcassets in Resources */,
 				D4081C0B1FB0422D002A0B2F /* loanCell.plist in Resources */,
 				D40427FB1FAD577000FE21D8 /* Main.storyboard in Resources */,
+				D4C7DF831FC911A200A54B7B /* GiveCreditTableViewCell.xib in Resources */,
 				D447650D1FB31EF500C0BA48 /* inform.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,16 +512,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				D447650B1FB31ACD00C0BA48 /* InformTableViewController.m in Sources */,
+				D4C7DF7E1FC9118300A54B7B /* GiveCreditTableViewController.m in Sources */,
+				D4DA429D1FC7102000847F15 /* RepayTableViewCell.m in Sources */,
+				D4D665861FC65584001972AB /* UseCreditTableViewCell.m in Sources */,
 				D404281E1FAD59BE00FE21D8 /* LoanViewController.m in Sources */,
+				D44876DF1FC83C1B004C1DF2 /* BankCardViewController.m in Sources */,
+				D4D6658B1FC6E6F9001972AB /* SuggestViewController.m in Sources */,
+				D4A799611FC449DB0093C028 /* LoginViewController.m in Sources */,
 				D4081C001FB00251002A0B2F /* MyCellModel.m in Sources */,
 				D40428211FAD59D800FE21D8 /* MoreViewController.m in Sources */,
+				D4C7DF821FC911A200A54B7B /* GiveCreditTableViewCell.m in Sources */,
 				D40427FE1FAD577000FE21D8 /* LoanApp.xcdatamodeld in Sources */,
+				D44876DB1FC82C57004C1DF2 /* GuidViewController.m in Sources */,
+				D44876E31FC83C54004C1DF2 /* BankCardTableViewCell.m in Sources */,
 				D40428061FAD577000FE21D8 /* main.m in Sources */,
 				D40427F51FAD577000FE21D8 /* AppDelegate.m in Sources */,
 				D458B0CF1FAF3EC60058D7A9 /* UserModel.m in Sources */,
 				D4081C0E1FB05613002A0B2F /* MyTableViewCell.m in Sources */,
 				D404281B1FAD59B000FE21D8 /* HomeViewController.m in Sources */,
+				D4C7DF971FC95F0100A54B7B /* NSString+Util.m in Sources */,
 				D40428241FAD59E300FE21D8 /* MyViewController.m in Sources */,
+				D4152D461FC58F87001E30C5 /* UseCreditTableViewController.m in Sources */,
+				D4DA42971FC70FCA00847F15 /* RepayViewController.m in Sources */,
 				D40FEF7E1FADAC0400DD7151 /* PageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

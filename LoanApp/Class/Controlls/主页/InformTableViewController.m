@@ -29,9 +29,9 @@
 }
 -(void)segChange:(UISegmentedControl *)seg{
     if(seg.selectedSegmentIndex == 0) {
-        
+        NSLog(@"000");
     } else {
-        
+        NSLog(@"111");
     }
 }
 #pragma mark - Table view data source

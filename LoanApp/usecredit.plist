@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>2017001234567</string>
+		<key>borrower</key>
+		<string>张超</string>
+		<key>borrownumber</key>
+		<string>3000000</string>
+		<key>rate</key>
+		<string>3.9</string>
+		<key>amount</key>
+		<string>4000000</string>
+		<key>time</key>
+		<string>2017-01-03 13:26</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>20170012345671111</string>
+		<key>borrower</key>
+		<string>nick</string>
+		<key>borrownumber</key>
+		<string>2000000</string>
+		<key>rate</key>
+		<string>4.5</string>
+		<key>amount</key>
+		<string>6000000</string>
+		<key>time</key>
+		<string>2017-01-04 13:26</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>22237001234567</string>
+		<key>borrower</key>
+		<string>Jay</string>
+		<key>borrownumber</key>
+		<string>3000000</string>
+		<key>rate</key>
+		<string>4.9</string>
+		<key>amount</key>
+		<string>4000000</string>
+		<key>time</key>
+		<string>2018-01-03 13:26</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>2017001234567</string>
+		<key>borrower</key>
+		<string>Nana</string>
+		<key>borrownumber</key>
+		<string>8000000</string>
+		<key>rate</key>
+		<string>6.9</string>
+		<key>amount</key>
+		<string>9000000</string>
+		<key>time</key>
+		<string>2019-09-09 18:16</string>
+	</dict>
+</array>
+</plist>

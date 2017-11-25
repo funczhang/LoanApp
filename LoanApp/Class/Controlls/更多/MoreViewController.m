@@ -7,6 +7,7 @@
 //
 
 #import "MoreViewController.h"
+#import "SuggestViewController.h"
 #import "Masonry.h"
 @interface MoreViewController () <UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) NSArray *cellData;
@@ -55,10 +56,15 @@
 //    设置section头尾高度
     table.sectionFooterHeight = 0;
     table.sectionHeaderHeight = 13;
+    
+//    [self.view viewWithTag:101]
+    
 }
 -(void)exit{
-    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"退出应用" message:@"是否退出应用" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:@"取消", nil];
-    [alert show];
+//    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"退出应用" message:@"是否退出应用" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:@"取消", nil];
+//    [alert show];
+    SuggestViewController *su = [[SuggestViewController alloc]init];
+    [self.navigationController pushViewController:su animated:YES];
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 50;
@@ -74,6 +80,7 @@
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.textLabel.text = [_cellData[indexPath.section][indexPath.row] objectForKey:@"text"];
     cell.imageView.image = [UIImage imageNamed:[_cellData[indexPath.section][indexPath.row] objectForKey:@"icon"]];
+    cell.tag = 101 + indexPath.section;
     return cell;
 }
 

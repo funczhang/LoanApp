@@ -8,6 +8,7 @@
 #import "MyViewController.h"
 //#import "MyHeaderViewController.h"
 #import "Masonry.h"
+#import "LoginViewController.h"
 @interface MyViewController () <UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) NSArray *cellData;
 @end
@@ -27,6 +28,7 @@
     table.sectionHeaderHeight = 0;
     table.dataSource = self;
     table.delegate=self;
+#warning 测试warning信息
     // 设置下边框从0开始
     [table setSeparatorInset:UIEdgeInsetsMake(0, 0, 0, 0)];
     // 字典转模型
@@ -48,9 +50,12 @@
     [header addSubview:bg];
     // 设置头像
     UIImageView *personView = [[UIImageView alloc]init];
+    personView.userInteractionEnabled = YES;
     personView.layer.cornerRadius = 40;
     personView.image = [UIImage imageNamed:@"default-img"];
     [bg addSubview:personView];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(login)];
+    [personView addGestureRecognizer:tap];
 //    masrony设置
     [personView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(header.mas_centerY).offset(-40);
@@ -74,8 +79,11 @@
     return header;
 }
 -(void)login{
-    UIAlertView *login = [[UIAlertView alloc]initWithTitle:@"登录注册" message:@"跳转登录注册页面" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:@"取消", nil];
-    [login show];
+    LoginViewController *login = [[LoginViewController alloc]init];
+    NSLog(@"点击头像");
+    [self.navigationController pushViewController:login animated:YES];
+//    UIAlertView *login = [[UIAlertView alloc]initWithTitle:@"登录注册" message:@"跳转登录注册页面" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:@"取消", nil];
+//    [login show];
 }
 #pragma mark - tableview datasource
 //-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{

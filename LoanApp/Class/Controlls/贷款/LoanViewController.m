@@ -9,6 +9,9 @@
 #import "LoanViewController.h"
 #import "Masonry.h"
 #import "AFNetworking.h"
+#import "UseCreditTableViewController.h"
+#import "RepayViewController.h"
+#import "GiveCreditTableViewController.h"
 #define SCREEN_W  [UIScreen mainScreen].bounds.size.width
 #define SCREEN_H  [UIScreen mainScreen].bounds.size.height
 
@@ -157,6 +160,27 @@
 #pragma mark - 去除tableview头部高度
 -(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
     return 80;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    RepayViewController *repay = [[RepayViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    UseCreditTableViewController *use = [[UseCreditTableViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    GiveCreditTableViewController *give = [[GiveCreditTableViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    switch (indexPath.section) {
+        case 0:
+            NSLog(@"00000000");
+            break;
+        case 1:
+            [self.navigationController pushViewController:give animated:YES];
+            break;
+        case 2:
+            [self.navigationController pushViewController:use animated:YES];
+            break;
+        case 3:
+            [self.navigationController pushViewController:repay animated:YES];
+            break;
+        default: NSLog(@"不跳转");
+            break;
+    }
 }
 //-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 //{

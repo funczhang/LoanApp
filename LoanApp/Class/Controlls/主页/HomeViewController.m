@@ -10,9 +10,14 @@
 #import "PageController.h"
 #import "Masonry.h"
 #import "InformTableViewController.h"
+#import "LoginViewController.h"
+#import "UseCreditTableViewController.h"
+#import "RepayViewController.h"
+#import "GuidViewController.h"
+#import "BankCardViewController.h"
 #define SCREEN_W  [UIScreen mainScreen].bounds.size.width
 #define SCREEN_H  [UIScreen mainScreen].bounds.size.height
-@interface HomeViewController ()
+@interface HomeViewController ()<UIGestureRecognizerDelegate>
 @property (nonatomic,strong) UIScrollView *sv;
 @property (nonatomic,strong) NSArray *images;
 @property (nonatomic,strong) PageController *pageContro;
@@ -25,10 +30,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIScrollView *main = [[UIScrollView alloc]initWithFrame:CGRectMake(0,0, SCREEN_W, SCREEN_H-64-49)];
+    main.contentSize = CGSizeMake(0, SCREEN_H-64);
     [self.view addSubview:main];
+    main.userInteractionEnabled = YES;
     main.backgroundColor = [UIColor whiteColor];
     main.scrollEnabled = YES;
-//    self.title = @"主页";
 //    self.automaticallyAdjustsScrollViewInsets = NO;
     UIBarButtonItem *right = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"icon-email"] style:UIBarButtonItemStylePlain target:self action:@selector(toInform)];
     self.navigationItem.rightBarButtonItem = right;
@@ -50,7 +56,6 @@
     }];
     UIView *dot = [[UIView alloc]init];
     [informView addSubview:dot];
-//    dot.backgroundColor = [UIColor redColor];
     dot.layer.cornerRadius = 3;
     [dot mas_makeConstraints:^(MASConstraintMaker *make) {
         make.height.equalTo(@6);
@@ -89,8 +94,8 @@
     UILabel *loanLabel = [[UILabel alloc]init];
     UILabel *repayLabel = [[UILabel alloc]init];
     UILabel *guaranteeLabel = [[UILabel alloc]init];
-    accountLabel.text = @"我的账户";
-    loanLabel.text = @"我的贷款";
+    accountLabel.text = @"我的银行卡";
+    loanLabel.text = @"我的用信";
     repayLabel.text = @"我的还款";
     guaranteeLabel.text = @"我的担保";
     [quickGoView addSubview:accountImg];
@@ -239,9 +244,54 @@
         make.right.equalTo(activity.mas_right).offset(-10);
         make.height.equalTo(@20);
     }];
+    repayLabel.userInteractionEnabled = YES;
+    
+    //    给图片添加一个手势
+    ////  打开图片用户交互
+    accountImg.userInteractionEnabled = YES;
+    //    初始化一个手势
+//    UIGestureRecognizer *singleTap = [[UIGestureRecognizer alloc]initWithTarget:self action:@selector(toRepay:)];
+    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(toUseLoan:)];
+     UITapGestureRecognizer *singleTap2 = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(toRepay:)];
+    repayLabel.userInteractionEnabled = YES;
+    //    为图片添加手势
+//    [accountImg addGestureRecognizer:singleTap];
+    loanLabel.userInteractionEnabled = YES;
+    [loanLabel addGestureRecognizer:singleTap];
+    [repayLabel addGestureRecognizer:singleTap2];
+    //    打开图片用户交互
+    UITapGestureRecognizer *guidGes = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(toGuid:)];
+    pay.userInteractionEnabled = YES;
+    [pay addGestureRecognizer:guidGes];
+    
+    
+    UITapGestureRecognizer *bankCardGes = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(toBankCardList:)];
+    accountLabel.userInteractionEnabled = YES;
+    [accountLabel addGestureRecognizer:bankCardGes];
+    
 //    添加定时器
     [self addTimer];
     
+}
+-(void)toBankCardList:(UITapGestureRecognizer *)sender{
+    BankCardViewController *card = [[BankCardViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    [self.navigationController pushViewController:card animated:YES];
+}
+-(void)toGuid:(UITapGestureRecognizer *)sender{
+    GuidViewController *guid = [[GuidViewController alloc]init];
+    [self.navigationController pushViewController:guid animated:YES];
+}
+-(void)toUseLoan:(UITapGestureRecognizer *)sender{
+    UseCreditTableViewController *use = [[UseCreditTableViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    [self.navigationController pushViewController:use animated:YES];
+}
+-(void)toRepay:(UITapGestureRecognizer *)sender{
+    RepayViewController *repay = [[RepayViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    [self.navigationController pushViewController:repay animated:YES];
+}
+-(void)toLogin{
+    LoginViewController *login = [[LoginViewController alloc]init];
+    [self.navigationController pushViewController:login animated:YES];
 }
 -(UIScrollView *)createScrollView:(CGFloat) width withHight:(CGFloat) height{
     UIScrollView *view = [[UIScrollView alloc]init];
@@ -263,7 +313,7 @@
     //    [NSTimer scheduledTimerWithTimeInterval:1.5 target:self selector:@selector(nextImage) userInfo:nil repeats:YES];
     return view;
 }
- -(void)nextImage{
+-(void)nextImage{
      NSInteger page = _pageContro.currentPage;
      if (page == 3){
          page = 0;
