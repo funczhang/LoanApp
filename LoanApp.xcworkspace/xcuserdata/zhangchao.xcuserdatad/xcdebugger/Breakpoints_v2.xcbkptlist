@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x4e3b;&#x9875;/HomeViewController.m"
-            timestampString = "533226184.614959"
+            timestampString = "534090084.348883"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "293"
-            endingLineNumber = "293"
+            startingLineNumber = "311"
+            endingLineNumber = "311"
             landmarkName = "-toLogin"
             landmarkType = "7">
          </BreakpointContent>
@@ -282,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x4e3b;&#x9875;/HomeViewController.m"
-            timestampString = "533226184.615083"
+            timestampString = "534090084.349087"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "HomeViewController()"
             landmarkType = "2">
          </BreakpointContent>
@@ -298,11 +298,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x4e3b;&#x9875;/HomeViewController.m"
-            timestampString = "533226184.61513"
+            timestampString = "534090084.349176"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "294"
-            endingLineNumber = "294"
+            startingLineNumber = "312"
+            endingLineNumber = "312"
             landmarkName = "-toLogin"
             landmarkType = "7">
          </BreakpointContent>
@@ -458,11 +458,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x4e3b;&#x9875;/HomeViewController.m"
-            timestampString = "533226184.615277"
+            timestampString = "534090084.349434"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "284"
-            endingLineNumber = "284"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
             landmarkName = "-toUseLoan:"
             landmarkType = "7">
          </BreakpointContent>
@@ -474,11 +474,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x4e3b;&#x9875;/HomeViewController.m"
-            timestampString = "533226184.615319"
+            timestampString = "534090084.349556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "285"
-            endingLineNumber = "285"
+            startingLineNumber = "303"
+            endingLineNumber = "303"
             landmarkName = "-toUseLoan:"
             landmarkType = "7">
          </BreakpointContent>
@@ -520,11 +520,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x4e3b;&#x9875;/HomeViewController.m"
-            timestampString = "533226184.615389"
+            timestampString = "534090084.349737"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "289"
-            endingLineNumber = "289"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
             landmarkName = "-toRepay:"
             landmarkType = "7">
          </BreakpointContent>
@@ -552,11 +552,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x4e3b;&#x9875;/HomeViewController.m"
-            timestampString = "533226184.615447"
+            timestampString = "534090084.349886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "281"
-            endingLineNumber = "281"
+            startingLineNumber = "299"
+            endingLineNumber = "299"
             landmarkName = "-toGuid:"
             landmarkType = "7">
          </BreakpointContent>
@@ -744,7 +744,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x6211;&#x7684;/&#x6388;&#x4fe1;/GiveCreditTableViewController.m"
-            timestampString = "533294064.185111"
+            timestampString = "533485108.71049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -760,7 +760,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x6211;&#x7684;/&#x6388;&#x4fe1;/GiveCreditTableViewController.m"
-            timestampString = "533294064.186123"
+            timestampString = "533485108.711541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
@@ -776,7 +776,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x6211;&#x7684;/&#x6388;&#x4fe1;/GiveCreditTableViewController.m"
-            timestampString = "533294064.18687"
+            timestampString = "533485108.712201"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -792,7 +792,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x6211;&#x7684;/&#x6388;&#x4fe1;/GiveCreditTableViewController.m"
-            timestampString = "533294064.187586"
+            timestampString = "533485108.712754"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -808,7 +808,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LoanApp/Class/Controlls/&#x6211;&#x7684;/&#x6388;&#x4fe1;/GiveCreditTableViewController.m"
-            timestampString = "533294064.188355"
+            timestampString = "533485108.713522"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
@@ -862,6 +862,54 @@
             startingLineNumber = "19"
             endingLineNumber = "19"
             landmarkName = "+formatNSString:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoanApp/Class/Controlls/common/&#x94f6;&#x884c;&#x5361;&#x5217;&#x8868;/BankCardViewController.m"
+            timestampString = "533484919.789945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-data"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoanApp/Class/Controlls/&#x4e3b;&#x9875;/New Group/HybridViewController.m"
+            timestampString = "533647607.776512"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoanApp/Class/Controlls/&#x4e3b;&#x9875;/&#x62c5;&#x4fdd;/AssureTableViewController.m"
+            timestampString = "534090084.350697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

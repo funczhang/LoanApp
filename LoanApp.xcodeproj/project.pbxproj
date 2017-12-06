@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ADE37461FCCF2780015A5BD /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 3ADE37451FCCF2780015A5BD /* dist */; };
 		D40427F51FAD577000FE21D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D40427F41FAD577000FE21D8 /* AppDelegate.m */; };
 		D40427FB1FAD577000FE21D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40427F91FAD577000FE21D8 /* Main.storyboard */; };
 		D40427FE1FAD577000FE21D8 /* LoanApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D40427FC1FAD577000FE21D8 /* LoanApp.xcdatamodeld */; };
@@ -25,6 +26,7 @@
 		D40FEF7E1FADAC0400DD7151 /* PageController.m in Sources */ = {isa = PBXBuildFile; fileRef = D40FEF7D1FADAC0400DD7151 /* PageController.m */; };
 		D4152D461FC58F87001E30C5 /* UseCreditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4152D441FC58F87001E30C5 /* UseCreditTableViewController.m */; };
 		D4152D4C1FC59543001E30C5 /* usecredit.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4152D4B1FC59543001E30C5 /* usecredit.plist */; };
+		D42BC38A1FCC0473002E7F2D /* HybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42BC3881FCC0473002E7F2D /* HybridViewController.m */; };
 		D447650B1FB31ACD00C0BA48 /* InformTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D447650A1FB31ACD00C0BA48 /* InformTableViewController.m */; };
 		D447650D1FB31EF500C0BA48 /* inform.plist in Resources */ = {isa = PBXBuildFile; fileRef = D447650C1FB31EF500C0BA48 /* inform.plist */; };
 		D44876DB1FC82C57004C1DF2 /* GuidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44876D91FC82C57004C1DF2 /* GuidViewController.m */; };
@@ -34,6 +36,14 @@
 		D44876E61FC840CD004C1DF2 /* bank.plist in Resources */ = {isa = PBXBuildFile; fileRef = D44876E51FC840CD004C1DF2 /* bank.plist */; };
 		D458B0CF1FAF3EC60058D7A9 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D458B0CE1FAF3EC60058D7A9 /* UserModel.m */; };
 		D4A799611FC449DB0093C028 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A799601FC449DB0093C028 /* LoginViewController.m */; };
+		D4B4FDC81FCED21600239326 /* AssureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B4FDC61FCED21600239326 /* AssureTableViewCell.m */; };
+		D4B4FDC91FCED21600239326 /* AssureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4B4FDC71FCED21600239326 /* AssureTableViewCell.xib */; };
+		D4B4FDCC1FCED23700239326 /* AssureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B4FDCB1FCED23700239326 /* AssureTableViewController.m */; };
+		D4BF7D2F1FD6E00C0044B912 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BF7D2E1FD6E00C0044B912 /* TestViewController.m */; };
+		D4BF7D331FD6E02D0044B912 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BF7D311FD6E02D0044B912 /* TestCell.m */; };
+		D4BF7D341FD6E02D0044B912 /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4BF7D321FD6E02D0044B912 /* TestCell.xib */; };
+		D4BF7D361FD6E17A0044B912 /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4BF7D351FD6E17A0044B912 /* test.plist */; };
+		D4BF7D391FD6E1E20044B912 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BF7D381FD6E1E20044B912 /* Test.m */; };
 		D4C7DF7E1FC9118300A54B7B /* GiveCreditTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7DF7D1FC9118300A54B7B /* GiveCreditTableViewController.m */; };
 		D4C7DF821FC911A200A54B7B /* GiveCreditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C7DF801FC911A200A54B7B /* GiveCreditTableViewCell.m */; };
 		D4C7DF831FC911A200A54B7B /* GiveCreditTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4C7DF811FC911A200A54B7B /* GiveCreditTableViewCell.xib */; };
@@ -47,10 +57,13 @@
 		D4DA429D1FC7102000847F15 /* RepayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DA429B1FC7102000847F15 /* RepayTableViewCell.m */; };
 		D4DA429E1FC7102000847F15 /* RepayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4DA429C1FC7102000847F15 /* RepayTableViewCell.xib */; };
 		D4DA42A01FC713D200847F15 /* repay.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4DA429F1FC713D200847F15 /* repay.plist */; };
+		D4FA3DC11FD2E24000295BD8 /* XHAssureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FA3DC01FD2E24000295BD8 /* XHAssureCell.m */; };
+		D4FA3DC31FD2EB0500295BD8 /* assure.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4FA3DC21FD2EB0500295BD8 /* assure.plist */; };
 		FA76146B6672014592E7858C /* libPods-LoanApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDF2F5717446F02F62B9A75 /* libPods-LoanApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3ADE37451FCCF2780015A5BD /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dist; sourceTree = "<group>"; };
 		3BDF2F5717446F02F62B9A75 /* libPods-LoanApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoanApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40427F01FAD577000FE21D8 /* LoanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40427F31FAD577000FE21D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +94,8 @@
 		D4152D431FC58F87001E30C5 /* UseCreditTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UseCreditTableViewController.h; sourceTree = "<group>"; };
 		D4152D441FC58F87001E30C5 /* UseCreditTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UseCreditTableViewController.m; sourceTree = "<group>"; };
 		D4152D4B1FC59543001E30C5 /* usecredit.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = usecredit.plist; sourceTree = "<group>"; };
+		D42BC3871FCC0473002E7F2D /* HybridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HybridViewController.h; sourceTree = "<group>"; };
+		D42BC3881FCC0473002E7F2D /* HybridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridViewController.m; sourceTree = "<group>"; };
 		D44765091FB31ACD00C0BA48 /* InformTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformTableViewController.h; sourceTree = "<group>"; };
 		D447650A1FB31ACD00C0BA48 /* InformTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformTableViewController.m; sourceTree = "<group>"; };
 		D447650C1FB31EF500C0BA48 /* inform.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = inform.plist; sourceTree = "<group>"; };
@@ -96,6 +111,19 @@
 		D458B0CE1FAF3EC60058D7A9 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		D4A7995F1FC449DB0093C028 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		D4A799601FC449DB0093C028 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D4B4FDC51FCED21600239326 /* AssureTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssureTableViewCell.h; sourceTree = "<group>"; };
+		D4B4FDC61FCED21600239326 /* AssureTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssureTableViewCell.m; sourceTree = "<group>"; };
+		D4B4FDC71FCED21600239326 /* AssureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssureTableViewCell.xib; sourceTree = "<group>"; };
+		D4B4FDCA1FCED23700239326 /* AssureTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssureTableViewController.h; sourceTree = "<group>"; };
+		D4B4FDCB1FCED23700239326 /* AssureTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssureTableViewController.m; sourceTree = "<group>"; };
+		D4BF7D2D1FD6E00C0044B912 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D4BF7D2E1FD6E00C0044B912 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		D4BF7D301FD6E02D0044B912 /* TestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		D4BF7D311FD6E02D0044B912 /* TestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		D4BF7D321FD6E02D0044B912 /* TestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
+		D4BF7D351FD6E17A0044B912 /* test.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		D4BF7D371FD6E1E20044B912 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		D4BF7D381FD6E1E20044B912 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		D4C7DF7C1FC9118300A54B7B /* GiveCreditTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiveCreditTableViewController.h; sourceTree = "<group>"; };
 		D4C7DF7D1FC9118300A54B7B /* GiveCreditTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiveCreditTableViewController.m; sourceTree = "<group>"; };
 		D4C7DF7F1FC911A200A54B7B /* GiveCreditTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiveCreditTableViewCell.h; sourceTree = "<group>"; };
@@ -116,6 +144,9 @@
 		D4DA429B1FC7102000847F15 /* RepayTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepayTableViewCell.m; sourceTree = "<group>"; };
 		D4DA429C1FC7102000847F15 /* RepayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepayTableViewCell.xib; sourceTree = "<group>"; };
 		D4DA429F1FC713D200847F15 /* repay.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = repay.plist; sourceTree = "<group>"; };
+		D4FA3DBF1FD2E24000295BD8 /* XHAssureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHAssureCell.h; sourceTree = "<group>"; };
+		D4FA3DC01FD2E24000295BD8 /* XHAssureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHAssureCell.m; sourceTree = "<group>"; };
+		D4FA3DC21FD2EB0500295BD8 /* assure.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = assure.plist; sourceTree = "<group>"; };
 		DBBEB58F7A24F95F36C32483 /* Pods-LoanApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoanApp/Pods-LoanApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F110823B19BD505542D7A179 /* Pods-LoanApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoanApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoanApp/Pods-LoanApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +183,7 @@
 		D40427E71FAD577000FE21D8 = {
 			isa = PBXGroup;
 			children = (
+				3ADE37451FCCF2780015A5BD /* dist */,
 				D40427F21FAD577000FE21D8 /* LoanApp */,
 				D40427F11FAD577000FE21D8 /* Products */,
 				68D0535D9573F01228C03A18 /* Pods */,
@@ -177,6 +209,8 @@
 				D40427FF1FAD577000FE21D8 /* Assets.xcassets */,
 				D40428011FAD577000FE21D8 /* LaunchScreen.storyboard */,
 				D4C7DF841FC912A400A54B7B /* givecredit.plist */,
+				D4BF7D351FD6E17A0044B912 /* test.plist */,
+				D4FA3DC21FD2EB0500295BD8 /* assure.plist */,
 				D40428041FAD577000FE21D8 /* Info.plist */,
 				D44876E51FC840CD004C1DF2 /* bank.plist */,
 				D4DA429F1FC713D200847F15 /* repay.plist */,
@@ -221,6 +255,8 @@
 				D458B0CE1FAF3EC60058D7A9 /* UserModel.m */,
 				D4081BFE1FB00251002A0B2F /* MyCellModel.h */,
 				D4081BFF1FB00251002A0B2F /* MyCellModel.m */,
+				D4FA3DBF1FD2E24000295BD8 /* XHAssureCell.h */,
+				D4FA3DC01FD2E24000295BD8 /* XHAssureCell.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -256,6 +292,9 @@
 		D40428151FAD590200FE21D8 /* 主页 */ = {
 			isa = PBXGroup;
 			children = (
+				D4BF7D2C1FD6DFDC0044B912 /* 测试 */,
+				D4B4FDC11FCED10B00239326 /* 担保 */,
+				D42BC38C1FCC0479002E7F2D /* 混合 */,
 				D40428191FAD59B000FE21D8 /* HomeViewController.h */,
 				D404281A1FAD59B000FE21D8 /* HomeViewController.m */,
 				D44765091FB31ACD00C0BA48 /* InformTableViewController.h */,
@@ -305,6 +344,42 @@
 				D4C7DF891FC9416200A54B7B /* 引导页 */,
 			);
 			path = common;
+			sourceTree = "<group>";
+		};
+		D42BC38C1FCC0479002E7F2D /* 混合 */ = {
+			isa = PBXGroup;
+			children = (
+				D42BC3871FCC0473002E7F2D /* HybridViewController.h */,
+				D42BC3881FCC0473002E7F2D /* HybridViewController.m */,
+			);
+			name = "混合";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D4B4FDC11FCED10B00239326 /* 担保 */ = {
+			isa = PBXGroup;
+			children = (
+				D4B4FDC51FCED21600239326 /* AssureTableViewCell.h */,
+				D4B4FDC61FCED21600239326 /* AssureTableViewCell.m */,
+				D4B4FDC71FCED21600239326 /* AssureTableViewCell.xib */,
+				D4B4FDCA1FCED23700239326 /* AssureTableViewController.h */,
+				D4B4FDCB1FCED23700239326 /* AssureTableViewController.m */,
+			);
+			path = "担保";
+			sourceTree = "<group>";
+		};
+		D4BF7D2C1FD6DFDC0044B912 /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				D4BF7D2D1FD6E00C0044B912 /* TestViewController.h */,
+				D4BF7D2E1FD6E00C0044B912 /* TestViewController.m */,
+				D4BF7D301FD6E02D0044B912 /* TestCell.h */,
+				D4BF7D311FD6E02D0044B912 /* TestCell.m */,
+				D4BF7D321FD6E02D0044B912 /* TestCell.xib */,
+				D4BF7D371FD6E1E20044B912 /* Test.h */,
+				D4BF7D381FD6E1E20044B912 /* Test.m */,
+			);
+			path = "测试";
 			sourceTree = "<group>";
 		};
 		D4C7DF761FC9107600A54B7B /* 用信 */ = {
@@ -434,21 +509,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADE37461FCCF2780015A5BD /* dist in Resources */,
 				D4C7DF851FC912A400A54B7B /* givecredit.plist in Resources */,
 				D4081C091FB02FED002A0B2F /* moreCell.plist in Resources */,
 				D4D6658C1FC6E6F9001972AB /* SuggestViewController.xib in Resources */,
 				D4DA42A01FC713D200847F15 /* repay.plist in Resources */,
 				D4DA429E1FC7102000847F15 /* RepayTableViewCell.xib in Resources */,
+				D4BF7D361FD6E17A0044B912 /* test.plist in Resources */,
 				D44876E61FC840CD004C1DF2 /* bank.plist in Resources */,
 				D4152D4C1FC59543001E30C5 /* usecredit.plist in Resources */,
+				D4FA3DC31FD2EB0500295BD8 /* assure.plist in Resources */,
 				D4081C011FB006EB002A0B2F /* cell.plist in Resources */,
 				D40428031FAD577000FE21D8 /* LaunchScreen.storyboard in Resources */,
 				D4D665871FC65584001972AB /* UseCreditTableViewCell.xib in Resources */,
 				D44876E41FC83C54004C1DF2 /* BankCardTableViewCell.xib in Resources */,
+				D4BF7D341FD6E02D0044B912 /* TestCell.xib in Resources */,
 				D40428001FAD577000FE21D8 /* Assets.xcassets in Resources */,
 				D4081C0B1FB0422D002A0B2F /* loanCell.plist in Resources */,
 				D40427FB1FAD577000FE21D8 /* Main.storyboard in Resources */,
 				D4C7DF831FC911A200A54B7B /* GiveCreditTableViewCell.xib in Resources */,
+				D4B4FDC91FCED21600239326 /* AssureTableViewCell.xib in Resources */,
 				D447650D1FB31EF500C0BA48 /* inform.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,7 +596,11 @@
 				D4DA429D1FC7102000847F15 /* RepayTableViewCell.m in Sources */,
 				D4D665861FC65584001972AB /* UseCreditTableViewCell.m in Sources */,
 				D404281E1FAD59BE00FE21D8 /* LoanViewController.m in Sources */,
+				D42BC38A1FCC0473002E7F2D /* HybridViewController.m in Sources */,
+				D4BF7D391FD6E1E20044B912 /* Test.m in Sources */,
 				D44876DF1FC83C1B004C1DF2 /* BankCardViewController.m in Sources */,
+				D4BF7D331FD6E02D0044B912 /* TestCell.m in Sources */,
+				D4B4FDC81FCED21600239326 /* AssureTableViewCell.m in Sources */,
 				D4D6658B1FC6E6F9001972AB /* SuggestViewController.m in Sources */,
 				D4A799611FC449DB0093C028 /* LoginViewController.m in Sources */,
 				D4081C001FB00251002A0B2F /* MyCellModel.m in Sources */,
@@ -525,10 +609,13 @@
 				D40427FE1FAD577000FE21D8 /* LoanApp.xcdatamodeld in Sources */,
 				D44876DB1FC82C57004C1DF2 /* GuidViewController.m in Sources */,
 				D44876E31FC83C54004C1DF2 /* BankCardTableViewCell.m in Sources */,
+				D4FA3DC11FD2E24000295BD8 /* XHAssureCell.m in Sources */,
 				D40428061FAD577000FE21D8 /* main.m in Sources */,
 				D40427F51FAD577000FE21D8 /* AppDelegate.m in Sources */,
 				D458B0CF1FAF3EC60058D7A9 /* UserModel.m in Sources */,
+				D4B4FDCC1FCED23700239326 /* AssureTableViewController.m in Sources */,
 				D4081C0E1FB05613002A0B2F /* MyTableViewCell.m in Sources */,
+				D4BF7D2F1FD6E00C0044B912 /* TestViewController.m in Sources */,
 				D404281B1FAD59B000FE21D8 /* HomeViewController.m in Sources */,
 				D4C7DF971FC95F0100A54B7B /* NSString+Util.m in Sources */,
 				D40428241FAD59E300FE21D8 /* MyViewController.m in Sources */,
@@ -670,11 +757,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NX5AY254F8;
+				DEVELOPMENT_TEAM = 9W62C74SQ3;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				INFOPLIST_FILE = LoanApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickzhang.LoanApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickzhang.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
@@ -687,11 +774,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NX5AY254F8;
+				DEVELOPMENT_TEAM = 9W62C74SQ3;
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				INFOPLIST_FILE = LoanApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nickzhang.LoanApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickzhang.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";

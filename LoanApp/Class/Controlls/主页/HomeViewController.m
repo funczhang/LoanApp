@@ -15,6 +15,8 @@
 #import "RepayViewController.h"
 #import "GuidViewController.h"
 #import "BankCardViewController.h"
+#import "HybridViewController.h"
+#import "AssureTableViewController.h"
 #define SCREEN_W  [UIScreen mainScreen].bounds.size.width
 #define SCREEN_H  [UIScreen mainScreen].bounds.size.height
 @interface HomeViewController ()<UIGestureRecognizerDelegate>
@@ -268,10 +270,26 @@
     UITapGestureRecognizer *bankCardGes = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(toBankCardList:)];
     accountLabel.userInteractionEnabled = YES;
     [accountLabel addGestureRecognizer:bankCardGes];
-    
+//    跳转到混合app
+    UITapGestureRecognizer *hybridGes = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(toHybrid:)];
+    applyImg.userInteractionEnabled = YES;
+    [applyImg addGestureRecognizer:hybridGes];
+//    applyImg
+//    guaranteeLabel
+    UITapGestureRecognizer *assureGes = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(toAssure:)];
+    guaranteeLabel.userInteractionEnabled = YES;
+    [guaranteeLabel addGestureRecognizer:assureGes];
 //    添加定时器
     [self addTimer];
     
+}
+-(void)toAssure:(UITapGestureRecognizer *)sender{
+    AssureTableViewController *assure = [[AssureTableViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    [self.navigationController pushViewController:assure animated:YES];
+}
+-(void)toHybrid:(UITapGestureRecognizer *)sender{
+    HybridViewController *hybrid = [[HybridViewController alloc]init];
+    [self.navigationController pushViewController:hybrid animated:YES];
 }
 -(void)toBankCardList:(UITapGestureRecognizer *)sender{
     BankCardViewController *card = [[BankCardViewController alloc]initWithStyle:UITableViewStyleGrouped];
